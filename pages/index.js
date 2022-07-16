@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -20,20 +21,24 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="/server-side-rendering" className={styles.card}>
-            <h2>Server-Side Rendering &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="/static-site-generation" className={styles.card}>
-            <h2>Static Site Generation &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a href="/client-side-rendering" className={styles.card}>
-            <h2>Client-Side Rendering &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          <Link href="/server-side-rendering">
+            <a className={styles.card}>
+              <h2>Server-Side Rendering &rarr;</h2>
+              <p>Find in-depth information about Next.js features and API.</p>
+            </a>
+          </Link>
+          <Link href="/static-site-generation">
+            <a className={styles.card}>
+              <h2>Static Site Generation &rarr;</h2>
+              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            </a>
+          </Link>
+          <Link href="/client-side-rendering">
+            <a href="/client-side-rendering" className={styles.card}>
+              <h2>Client-Side Rendering &rarr;</h2>
+              <p>Discover and deploy boilerplate example Next.js projects.</p>
+            </a>
+          </Link>
 
           <a href="/incremental-static-regeneration" className={styles.card}>
             <h2>Incremental Static Regeneration &rarr;</h2>
