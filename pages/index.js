@@ -34,18 +34,19 @@ export default function Home() {
             </a>
           </Link>
           <Link href="/client-side-rendering">
-            <a href="/client-side-rendering" className={styles.card}>
+            <a className={styles.card}>
               <h2>Client-Side Rendering &rarr;</h2>
               <p>Discover and deploy boilerplate example Next.js projects.</p>
             </a>
           </Link>
-
-          <a href="/incremental-static-regeneration" className={styles.card}>
-            <h2>Incremental Static Regeneration &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link href="/incremental-static-regeneration">
+            <a className={styles.card}>
+              <h2>Incremental Static Regeneration &rarr;</h2>
+              <p>
+                Instantly deploy your Next.js site to a public URL with Vercel.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
 
