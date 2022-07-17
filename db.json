@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Melanie Graham",
+      "email": "spice@bazar.com"
+    },
+    {
+      "id": 2,
+      "name": "Peter Smith",
+      "email": "peter@petersmith.com"
+    },
+    {
+      "id": 3,
+      "name": "David Jonsson",
+      "email": "david.jonsson@nyrealtor.com"
+    },
+    {
+      "id": 4,
+      "name": "Elisabeth Lee",
+      "email": "el@theverge.com"
+    },
+    {
+      "id": 5,
+      "name": "Bob Hubble",
+      "email": "bobby@hobby.com"
+    }
+  ]
+}

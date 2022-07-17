@@ -34,7 +34,7 @@ function ClientSideRendering() {
   const [user, setUser] = useState([]);
 
   const getData = async () => {
-    const response = await fetch("https://jsonplaceholder.typicode.com/users");
+    const response = await fetch("http://localhost:7000/users");
     const data = await response.json();
     setUser(data);
   };
