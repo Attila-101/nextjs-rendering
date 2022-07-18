@@ -16,35 +16,40 @@ export default function Home() {
         <h1 className={styles.title}>Next.js rendering methods</h1>
 
         <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.js</code>
+          You can edit the project on{" "}
+          <code className={styles.code}>
+            <a
+              className={styles.link}
+              href="https://codesandbox.io/s/nextjs-rendering-udevzh"
+            >
+              CodeSandbox
+            </a>
+          </code>
         </p>
 
         <div className={styles.grid}>
           <Link href="/server-side-rendering">
             <a className={styles.card}>
               <h2>Server-Side Rendering &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+              <p>Server-Side Rendered page</p>
             </a>
           </Link>
           <Link href="/static-site-generation">
             <a className={styles.card}>
               <h2>Static Site Generation &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
+              <p>Static Site Generated page</p>
             </a>
           </Link>
           <Link href="/client-side-rendering">
             <a className={styles.card}>
               <h2>Client-Side Rendering &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
+              <p>Client-Side Rendered page</p>
             </a>
           </Link>
           <Link href="/incremental-static-regeneration">
             <a className={styles.card}>
               <h2>Incremental Static Regeneration &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
+              <p>Incremental Static Regenerated page</p>
             </a>
           </Link>
         </div>
