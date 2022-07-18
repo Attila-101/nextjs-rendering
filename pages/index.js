@@ -20,7 +20,7 @@ export default function Home() {
           <code className={styles.code}>
             <a
               className={styles.link}
-              href="https://codesandbox.io/s/nextjs-rendering-udevzh"
+              href="https://codesandbox.io/s/nextjs-rendering-1q5l9v"
             >
               CodeSandbox
             </a>
