@@ -1,3 +1,18 @@
+This project was made as part of a workshop for Vefskólinn (Reykjavik Academy of Web Development). In this workshop I discussed and demonstraded 4 different rendering methods of Next.js.
+
+## To test how data is updated with each rendering method
+
+- Uncomment the local API and comment out the Heroku API
+
+```bash
+const response = await fetch("https://my-user-api.herokuapp.com/users");
+// const response = await fetch("http://localhost:7000/users");
+```
+
+- Run the json server with the `yarn jsondb` command
+- Build the project with the `yarn build` command
+- Change the data in the `db.json` file
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
